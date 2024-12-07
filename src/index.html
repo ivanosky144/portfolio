@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50 text-gray-800 bg-gray-800 z-10">
+    <!-- Header -->
+    <header class="bg-purple-900 text-white opacity-90 text-center p-3 fixed bottom-5 left-1/2 transform -translate-x-1/2 rounded-xl shadow-lg w-[70%] max-w-3xl z-[9999]">
+        <nav>
+            <div class="flex gap-24 justify-center items-center">
+                <div>
+                    <a href="#about" class="group hover:text-white cursor-pointer">
+                        <i class='fas fa-user-alt text-gray-300 group-hover:text-white cursor-pointer' style='font-size:36px'></i>
+                        <p class="text-xs font-semibold text-gray-300 group-hover:text-white cursor-pointer">About</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#skills" class="group hover:text-white cursor-pointer">
+                        <i class='fas fa-atom text-gray-300 group-hover:text-white cursor-pointer' style='font-size:36px'></i>
+                        <p class="text-xs font-semibold text-gray-300 group-hover:text-white cursor-pointer">Skills</p>
+                    </a>
+                </div>
+                <div>
+                    <div href="#experiences" class="group hover:text-white cursor-pointer">
+                        <i class='fa fa-certificate text-gray-300 group-hover:text-white cursor-pointer' style='font-size:36px'></i>
+                        <p class="text-xs font-semibold text-gray-300 group-hover:text-white cursor-pointer">Experiences</p>
+                    </div>
+                </div>
+                <div>
+                    <a href="#projects" class="group hover:text-white cursor-pointer">
+                        <i class='fas fa-laptop-code text-gray-300 group-hover:text-white cursor-pointer' style='font-size:36px'></i>
+                        <p class="text-xs font-semibold text-gray-300 group-hover:text-white cursor-pointer">Projects</p>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+
+    <!-- About Section -->
+    <section id="about" class="py-12 px-8 bg-gray-800 flex flex-col gap-12">
+        <div class="flex flex-row gap-24">
+            <img src="assets/photo_profile.png" alt="" class="rounded-full w-[540px] h-[500px] flex items-center bg-opacity-50">
+            <div class="container mx-auto px-6 text-center flex flex-col justify-center gap-5">
+                <h2 class="text-7xl font-bold mb-4 text-white text-start">Hizkia Joy Ivan</h2>
+                <p class="text-lg text-white font-semibold text-start">Hello! I'm a final year information engineering student at Gadjah Mada University with deep passion in software engineering and interest in applied mathematics</p>
+                <div class="flex gap-5">
+                    <a href="https://www.linkedin.com/in/hizkia-joy-ivan/" target="_blank">
+                        <i class="fa fa-linkedin-square text-gray-500 hover:text-blue-500 cursor-pointer" style="font-size:48px"></i>
+                    </a>                    
+                    <a href="https://github.com/ivanosky144" target="_blank">
+                        <i class="fa fa-github text-gray-500 hover:text-white cursor-pointer" style="font-size:48px">
+                        </i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container p-10">
+            <h2 class="text-3xl font-bold text-center mb-8 text-white">Skills</h2>
+            <div class="flex flex-col text-xl text-white font-semibold p-10 gap-5">
+                <div class="flex flex-col gap-3 bg-gray-700 py-5 px-10 rounded-lg">
+                    <p class="text-3xl">Backend Development</p>
+                    <p>Experienced in developing backend systems, with a strong understanding of RESTful API concepts, relational database, non-relational database, message queue</p>
+                    <p>Tech Stack</p>
+                    <div class="flex gap-3">
+                        <p class="bg-purple-800 opacity-80 px-3 py-1 text-sm rounded-md">SQL</p>
+                        <p class="bg-purple-800 opacity-80 px-3 py-1 text-sm rounded-md">Node JS</p>
+                        <p class="bg-purple-800 opacity-80 px-3 py-1 text-sm rounded-md">Go</p>
+                        <p class="bg-purple-800 opacity-80 px-3 py-1 text-sm rounded-md">Python</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-3 bg-gray-700 py-5 px-10 rounded-lg">
+                    <p class="text-3xl">Web Development</p>
+                    <p>Proficient in developing web applications, with plain Javascript and modern web frameworks</p>
+                    <p>Tech Stack</p>
+                    <div class="flex gap-3">
+                        <p class="bg-purple-800 opacity-80 px-3 py-1 text-sm rounded-md">Javascript</p>
+                        <p class="bg-purple-800 opacity-80 px-3 py-1 text-sm rounded-md">Typescritpt</p>
+                        <p class="bg-purple-800 opacity-80 px-3 py-1 text-sm rounded-md">HTML</p>
+                        <p class="bg-purple-800 opacity-80 px-3 py-1 text-sm rounded-md">React JS</p>
+                        <p class="bg-purple-800 opacity-80 px-3 py-1 text-sm rounded-md">Tailwind</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-3 bg-gray-700 py-5 px-10 rounded-lg">
+                    <p class="text-3xl">Data Structure & Algortihm</p>
+                    <p>Have strong understanding of core data structures such as set, hashmap, linked list, and tree</p>
+                </div>
+                <div class="flex flex-col gap-3 bg-gray-700 py-5 px-10 rounded-lg">
+                    <p class="text-3xl">Applied Mathematics</p>
+                    <p>Have solid knowledge of discrete mathematics, basic calculus, and linear algebra</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Experiences Section -->
+    <section id="experiences">
+        <div class="container p-10">
+            <h2 class="text-3xl font-bold text-center mb-8 text-white">Experiences</h2>
+            <div class="flex flex-col text-xl text-white font-semibold p-10 gap-5">
+                <div class="flex flex-col gap-3 bg-gray-700 py-5 px-10 rounded-lg">
+                    <p class="text-3xl">Fullstack Engineer Intern - Skyshi Digital</p>
+                    <p class="text-purple-300 text-xl">Jan 2024 - Oct 2024</p>
+                    <p>Assisted in developing main api service and runner service for developer and coding assessment platform using Node JS, Redis, and SQL.
+                        I also helped developing the platform's web interface using React JS, Next JS, and Tailwind.
+                    </p>
+                    <p>Tech Stack</p>
+                    <div class="flex gap-3">
+                        <p class="bg-purple-800 opacity-80 px-3 py-1 text-sm rounded-md">Javascript</p>
+                        <p class="bg-purple-800 opacity-80 px-3 py-1 text-sm rounded-md">Node JS</p>
+                        <p class="bg-purple-800 opacity-80 px-3 py-1 text-sm rounded-md">React JS</p>
+                        <p class="bg-purple-800 opacity-80 px-3 py-1 text-sm rounded-md">Redis</p>
+                        <p class="bg-purple-800 opacity-80 px-3 py-1 text-sm rounded-md">MySQL</p>
+                        <p class="bg-purple-800 opacity-80 px-3 py-1 text-sm rounded-md">Docker</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-3 bg-gray-700 py-5 px-10 rounded-lg">
+                    <p class="text-3xl">Fullstack Developer Intern - thebee.id</p>
+                    <p class="text-purple-300 text-xl">Aug 2023 - Oct 2023</p>
+                    <p>Assisted in developing web interface of online learning platform and content management system using Typescript, React JS, and Tailwind. Also, gained experiences with backend development utilizing clean architecture</p>
+                    <p>Tech Stack</p>
+                    <div class="flex gap-3">
+                        <p class="bg-purple-800 opacity-80 px-3 py-1 text-sm rounded-md">Typescript</p>
+                        <p class="bg-purple-800 opacity-80 px-3 py-1 text-sm rounded-md">React JS</p>
+                        <p class="bg-purple-800 opacity-80 px-3 py-1 text-sm rounded-md">Laravel</p>
+                        <p class="bg-purple-800 opacity-80 px-3 py-1 text-sm rounded-md">PostgreSQL</p>
+                        <p class="bg-purple-800 opacity-80 px-3 py-1 text-sm rounded-md">Tailwind</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-3 bg-gray-700 py-5 px-10 rounded-lg">
+                    <p class="text-3xl">Member - Web Development Community of Night Login</p>
+                    <p>Participated as member in web development community in my department. Received training session focused on web fundamentals.</p>
+                </div>
+                <div class="flex flex-col gap-3 bg-gray-700 py-5 px-10 rounded-lg">
+                    <p class="text-3xl">Teaching Tutor</p>
+                    <p class="text-purple-300 text-xl">Feb 2023 - June 2023</p>
+                    <p>Assisted in tutoring students in Linear Algebra course in my department</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-12 bg-gray-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-8 text-white">My Projects</h2>
+            <div class="flex flex-col p-10 gap-8">
+                <div class="flex justify-between">
+                    <div class="p-6 rounded-lg shadow opacity-80 flex flex-col gap-5 w-[60%]">
+                        <div class="flex justify-between">
+                            <h3 class="text-5xl font-semibold mb-2 text-white">Temuka</h3>
+                        </div>
+                        <p class="text-gray-600 text-white text-justify">This is my first large scale software project, designed as a social network platform with aims to facilitate comprehensive reviews of majors and universities in Indonesia, and community engagement tailored for high school and college students in Indonesia. 
+                            Temuka incorporates a wide range of features such as university reviews, major reviews, community based interaction, post management, messaging, notification, etc. This project spans multiple codebases such as web platform, mobile platform, core api service, recommendation service, and data pipeline.
+                        </p>
+                        <div class="grid gap-3 grid-cols-8">
+                            <p class="bg-purple-800 opacity-80 px-3 py-1 text-center text-sm rounded-md text-white font-semibold">Typescript</p>
+                            <p class="bg-purple-800 opacity-80 px-3 py-1 text-center text-sm rounded-md text-white font-semibold">Go</p>
+                            <p class="bg-purple-800 opacity-80 px-3 py-1 text-center text-sm rounded-md text-white font-semibold">Python</p>
+                            <p class="bg-purple-800 opacity-80 px-3 py-1 text-center text-sm rounded-md text-white font-semibold">Java</p>
+                            <p class="bg-purple-800 opacity-80 px-3 py-1 text-center text-sm rounded-md text-white font-semibold">React JS</p>
+                            <p class="bg-purple-800 opacity-80 px-3 py-1 text-center text-sm rounded-md text-white font-semibold">PostgreSQL</p>
+                            <p class="bg-purple-800 opacity-80 px-3 py-1 text-center text-sm rounded-md text-white font-semibold">Redis</p>
+                            <p class="bg-purple-800 opacity-80 px-3 py-1 text-center text-sm rounded-md text-white font-semibold">Docker</p>
+                            <p class="bg-purple-800 opacity-80 px-3 py-1 text-center text-sm rounded-md text-white font-semibold">AWS S3</p>
+                            <p class="bg-purple-800 opacity-80 px-3 py-1 text-center text-sm rounded-md text-white font-semibold">PostgreSQL</p>
+                            <p class="bg-purple-800 opacity-80 px-3 py-1 text-center text-sm rounded-md text-white font-semibold">Neo4j</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-[40%] z-10">
+                        <div class="bg-gray-700 rounded-md px-3 py-3 relative">
+                            <div class="relative">
+                                <img id="project-images-1" src="assets/inkubi_portfolio.jpeg" alt="Project Image" class="rounded-md mx-auto">
+                                
+                                <div class="absolute inset-0 flex justify-between items-center px-2">
+                                    <button id="prev-button1" class="opacity-60 text-center text-md rounded-md text-white font-bold cursor-pointer">
+                                        <i class="fa fa-arrow-circle-left text-gray-800 text-5xl opacity-80 hover:text-gray-600">
+                                        </i>
+                                    </button>
+                                    <button id="next-button1" class="opacity-60 text-center text-md rounded-md text-white font-bold cursor-pointer">
+                                        <i class="fa fa-arrow-circle-right text-gray-800 text-5xl opacity-80 hover:text-gray-600">
+                                        </i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="flex gap-5 justify-end pt-3">
+                                <a class="bg-purple-800 px-3 py-1 text-center text-md rounded-md text-white font-semibold hover:bg-purple-600 cursor-pointer" href="https://github.com/NandoAACF/task-hub-webapp">Codebase</a>
+                                <a class="bg-purple-800 px-3 py-1 text-center text-md rounded-md text-white font-semibold hover:bg-purple-600 cursor-pointer" href="https://taskify-platform.vercel.app/">Showcase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-between">
+                    <div class="flex flex-col w-[40%] z-10">
+                        <div class="bg-gray-700 rounded-md px-3 py-3 relative">
+                            <div class="relative">
+                                <img id="project-images-2" src="assets/inkubi_portfolio.jpeg" alt="Project Image" class="rounded-md mx-auto">
+                                
+                                <div class="absolute inset-0 flex justify-between items-center px-2">
+                                    <button id="prev-button2" class="opacity-60 text-center text-md rounded-md text-white font-bold cursor-pointer">
+                                        <i class="fa fa-arrow-circle-left text-gray-800 text-5xl opacity-80 hover:text-gray-600">
+                                        </i>
+                                    </button>
+                                    <button id="next-button2" class="opacity-60 text-center text-md rounded-md text-white font-bold cursor-pointer">
+                                        <i class="fa fa-arrow-circle-right text-gray-800 text-5xl opacity-80 hover:text-gray-600">
+                                        </i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="flex gap-5 justify-start pt-3">
+                                <a class="bg-purple-800 px-3 py-1 text-center text-md rounded-md text-white font-semibold hover:bg-purple-600 cursor-pointer" href="https://github.com/NandoAACF/task-hub-webapp">Codebase</a>
+                                <a class="bg-purple-800 px-3 py-1 text-center text-md rounded-md text-white font-semibold hover:bg-purple-600 cursor-pointer" href="https://taskify-platform.vercel.app/">Showcase</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 rounded-lg shadow opacity-80 flex flex-col gap-5 w-[60%] ml-auto">
+                        <div class="flex justify-between">
+                            <h3 class="text-5xl font-semibold mb-2 text-white text-right w-full">Inkubi</h3>
+                        </div>
+                        <p class="text-gray-600 text-white text-right">
+                            A web application to monitor and display real-time series data from a baby incubator such as temperature, humidity, and sound levels. This app also provides data records and simple statistics.
+                        </p>
+                        <div class="flex gap-3 justify-end">
+                            <p class="bg-purple-800 opacity-80 px-3 py-1 text-center text-sm rounded-md text-white font-semibold">Typescript</p>
+                            <p class="bg-purple-800 opacity-80 px-3 py-1 text-center text-sm rounded-md text-white font-semibold">Arduino</p>
+                            <p class="bg-purple-800 opacity-80 px-3 py-1 text-center text-sm rounded-md text-white font-semibold">Next JS</p>
+                            <p class="bg-purple-800 opacity-80 px-3 py-1 text-center text-sm rounded-md text-white font-semibold">MongoDB</p>
+                            <p class="bg-purple-800 opacity-80 px-3 py-1 text-center text-sm rounded-md text-white font-semibold">MQTT</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="flex justify-between">
+                    <div class="p-6 rounded-lg shadow opacity-80 flex flex-col gap-5 w-[60%]">
+                        <div class="flex justify-between">
+                            <h3 class="text-5xl font-semibold mb-2 text-white">Taskify</h3>
+                        </div>
+                        <p class="text-gray-600 text-white">    A task management web application designed to streamline productivity. Features include task and note creation, marking tasks as favorites, and organizing activities based on due dates for efficient tracking.
+                        </p>
+                        <div class="flex gap-3 ">
+                            <p class="bg-purple-800 opacity-80 px-3 py-1 text-center text-sm rounded-md text-white font-semibold">Javascript</p>
+                            <p class="bg-purple-800 opacity-80 px-3 py-1 text-center text-sm rounded-md text-white font-semibold">Next JS</p>
+                            <p class="bg-purple-800 opacity-80 px-3 py-1 text-center text-sm rounded-md text-white font-semibold">Node JS</p>
+                            <p class="bg-purple-800 opacity-80 px-3 py-1 text-center text-sm rounded-md text-white font-semibold">Mongo DB</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-[40%]">
+                        <div class="bg-gray-700 rounded-md px-3 py-3 relative">
+                            <div class="relative">
+                                <img id="project-images-3" src="assets/taskify_portfolio.png" alt="Project Image" class="rounded-md mx-auto">
+                                
+                                <div class="absolute inset-0 flex justify-between items-center px-2">
+                                    <button id="prev-button3" class="opacity-60 text-center text-md rounded-md text-white font-bold cursor-pointer">
+                                        <i class="fa fa-arrow-circle-left text-gray-800 text-5xl opacity-80 hover:text-gray-600">
+                                        </i>
+                                    </button>
+                                    <button id="next-button3" class="opacity-60 text-center text-md rounded-md text-white font-bold cursor-pointer">
+                                        <i class="fa fa-arrow-circle-right text-gray-800 text-5xl opacity-80 hover:text-gray-600">
+                                        </i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="flex gap-5 justify-end pt-3">
+                                <a class="bg-purple-800 px-3 py-1 text-center text-md rounded-md text-white font-semibold hover:bg-purple-600 cursor-pointer" href="https://github.com/NandoAACF/task-hub-webapp">Codebase</a>
+                                <a class="bg-purple-800 px-3 py-1 text-center text-md rounded-md text-white font-semibold hover:bg-purple-600 cursor-pointer" href="https://taskify-platform.vercel.app/">Showcase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificate">
+        <div class="container p-10">
+            <h2 class="text-3xl font-bold text-center mb-8 text-white">Certificates</h2>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="py-6 bg-gray-800 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <p>Contact me at: <a href="mailto:joyivan6@gmail.com" class="text-blue-400 hover:underline">joyivan6@gmail.com</a></p>
+            <p>&copy; 2024 My Portfolio</p>
+        </div>
+    </footer>
+
+    <script>
+        const images = {
+            "project1": [],
+            "project2": [
+                "assets/inkubi_portfolio.png",
+                "assets/inkubi_portfolio.png"
+            ],
+            "project3": [
+                "assets/taskify_portfolio.png",
+                "assets/taskify_portfolio-1.png",
+            ]
+        };
+
+        const galleryElements = {
+            "project1": document.getElementById("project-images-1"),
+            "project2": document.getElementById("project-images-2"),
+            "project3": document.getElementById("project-images-3")
+        };
+
+        const buttons = {
+            "project1": {
+                prev: document.getElementById("prev-button1"),
+                next: document.getElementById("next-button1")
+            },
+            "project2": {
+                prev: document.getElementById("prev-button2"),
+                next: document.getElementById("next-button2")
+            },
+            "project3": {
+                prev: document.getElementById("prev-button3"),
+                next: document.getElementById("next-button3")
+            }
+        };
+
+        const currentIndexMap = {
+            "project1": 0,
+            "project2": 0,
+            "project3": 0
+        };
+
+        const updateGalleryImage = (projectKey, direction) => {
+            const projectImages = images[projectKey];
+            if (projectImages.length === 0) return;
+
+            const currentIndex = currentIndexMap[projectKey];
+            currentIndexMap[projectKey] = 
+                (currentIndex + direction + projectImages.length) % projectImages.length;
+
+            const galleryImage = galleryElements[projectKey];
+            galleryImage.src = projectImages[currentIndexMap[projectKey]];
+        };
+
+        Object.keys(images).forEach(projectKey => {
+            const { prev, next } = buttons[projectKey];
+            
+            if (prev) {
+                prev.addEventListener("click", () => updateGalleryImage(projectKey, -1));
+            }
+            
+            if (next) {
+                next.addEventListener("click", () => updateGalleryImage(projectKey, 1));
+            }
+        });
+
+    </script>
+</body>
+</html>
